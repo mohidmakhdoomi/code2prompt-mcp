@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.13-slim
 
 # Install system dependencies for Rust and UV
 RUN apt update && apt install -y \
